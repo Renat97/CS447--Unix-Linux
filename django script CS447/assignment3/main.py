@@ -1,4 +1,4 @@
-# assignment3 CS447 by Renat Norderhaug, project on File I/O and django templating
+# assignment3 CS447 by Renat Norderhaug, project on File I/O and django templating, parses a json file with python
 #!/bin/python3
 import json #Used to load json
 from jinja2 import Environment, FileSystemLoader #Templating
