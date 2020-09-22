@@ -1,0 +1,11 @@
+# tarecho.socket
+
+[unit]
+Description = Tar server
+
+[Socket]
+ListenStream = /var/run/tarecho
+Accept = yes
+
+[Install]
+WantedBy = sockets.target
